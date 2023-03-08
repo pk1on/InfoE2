@@ -1,0 +1,83 @@
+ /* Dropdown Button */
+ .dropbutton {
+    background-color: #5204aa;
+    color: white;
+    padding: 16px;
+    font-size: 15px;
+    border: none;
+    min-width: 280px;
+    width: 100%;
+  }
+  
+  /* The container <div> - needed to position the dropdown content */
+  .dropdown {
+    position: relative;
+    display: inline-block;
+    width: 15.96%;
+    min-width: 280px;
+    margin: 0.35%;
+    /*background-color: #5204aa;*/
+  }
+  
+  /* Dropdown Content (Hidden by Default) */
+  .dropdowncontent {
+    display: none;
+    position: absolute;
+    background-color: #dbcae9;
+    min-width: 280px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    font-size: 16px;
+    width: 100%;
+  }
+  
+  /* Links inside the dropdown */
+  .dropdowncontent a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    font-size: 16px;
+  }
+  
+  /* Change color of dropdown links on hover */
+  .dropdowncontent a:hover {background-color: #b489d1;}
+  
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdowncontent {display: block;}
+  
+  /* Change the background color of the dropdown button when the dropdown content is shown */
+  .dropdown:hover .dropbutton {background-color: #6f3aa1;} 
+ 
+body {
+  background-color: rgb(105, 169, 233);    /*background-color: rgb(70, 141, 211);*/
+  
+}
+
+.dropdowns {
+  width: 100%;
+  font-size: 0pt;
+}
+
+h1 {
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 70pt;
+}
+
+h2 {
+  font-size: 22pt;
+  margin: 2%;
+  font-weight: bold;
+}
+
+.info {
+  background-color: aliceblue;
+  border-style: dotted;
+  border-radius: 16px;
+  width: 80%;
+}
+
+p {
+  font-size: 18pt;
+  margin: 2%;
+}
